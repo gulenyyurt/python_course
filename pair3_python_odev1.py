@@ -60,7 +60,7 @@ print("Dairenin Alanı:", alan)
 print("Dairenin Çevresi:", cevre)
 
 #5-Kullanıcıdan alınan bir sayının palindrom olup olmadığını bulan bir program yazınız.
-##cozum (girilen sayının polindrom olup olmadığınıkontrol eder.)
+##cozum (girilen sayının polindrom olup olmadığını kontrol eder.)
 def palindrom_mu(sayi):
     sayi_str = str(sayi)
     ters_sayi_str = sayi_str[::-1]
@@ -73,7 +73,7 @@ if palindrom_mu(sayi):
 else:
     print(sayi, "bir palindrom değildir.")
 
-##cozum (girilen metnin polindrom olup olmadığınıkontrol eder.)
+##cozum (girilen metnin polindrom olup olmadığını kontrol eder.)
 
 metin = input('Metni Girin : \n')
 ters=metin[::-1]
