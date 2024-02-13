@@ -29,6 +29,7 @@ zamOrani = float(input("Lütfen zam oranını giriniz (Sadece pay kısmını gir
 
 zamli = float (zamliMaas(maas, zamOrani))
 print("Zamlı Maaş:", zamli)
+
 #3-Kullanıcının girdiği üç sayı arasında en büyük olanı bulan ve sonucu yazdıran bir program yazınız.
 a = float(input("Birinci sayiyi giriniz:"))
 b = float(input("İkinci sayiyi giriniz:"))
@@ -59,7 +60,7 @@ print("Dairenin Alanı:", alan)
 print("Dairenin Çevresi:", cevre)
 
 #5-Kullanıcıdan alınan bir sayının palindrom olup olmadığını bulan bir program yazınız.
-##cozum 1
+##cozum (girilen sayının polindrom olup olmadığınıkontrol eder.)
 def palindrom_mu(sayi):
     sayi_str = str(sayi)
     ters_sayi_str = sayi_str[::-1]
@@ -72,7 +73,7 @@ if palindrom_mu(sayi):
 else:
     print(sayi, "bir palindrom değildir.")
 
-##cozum 2(girilen metinin polindrom olup olmadığınıkontrol eder.)
+##cozum (girilen metnin polindrom olup olmadığınıkontrol eder.)
 
 metin = input('Metni Girin : \n')
 ters=metin[::-1]
